@@ -28,7 +28,7 @@ site:
     root: Website Root Path #Optional
     lang: Website Language #Support en, zh, ru, ja, Configurable in theme/lang.yml
     url: Website URL #For RSS Generating
-    link: Article Link Scheme #Default Is {title}.html，Support {year},{month},{day},{title} Variables
+    link: Article Link Scheme #Default Is {title}.html，Support {year},{month},{day},{hour},{minute},{second},{title} Variables
 
 authors:
     AuthorID:
@@ -110,8 +110,12 @@ Docker Build (Example)
 
 ## Theme
 
-- Pure: [https://github.com/Xdatk/ink-pure](https://github.com/Xdatk/ink-pure)
-- Werttin: [https://github.com/Skimige/ink_Werttin](https://github.com/Skimige/ink_Werttin)
+- Dark(Official Theme): [https://github.com/InkProject/ink-theme-dark](https://github.com/InkProject/ink-theme-dark)
+- simple: [https://github.com/myiq/ink-simple](https://github.com/myiq/ink-simple)
+
+## Related Toturials
+
+- [Automatically deploy your Ink blog to GitHub pages wiht Travis CI](http://www.shery.me/blog/travis-ci.html)
 
 ## License
 [CC Attribution-NonCommercial License 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
